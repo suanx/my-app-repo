@@ -45,7 +45,7 @@ pipeline {
             steps {
                 script {
                     // Run the Docker container
-                    sh 'docker run -d -p 3000:3000 $DOCKER_IMAGE'
+                    sh 'docker run -d -p 3001:3000 $DOCKER_IMAGE'
                 }
             }
         }
