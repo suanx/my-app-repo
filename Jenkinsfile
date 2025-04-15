@@ -10,7 +10,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Pull the application code from the Git repository
-                git 'https://github.com/yourusername/my-app-repo.git'
+                git 'https://github.com/suanx/my-app-repo.git'
             }
         }
 
