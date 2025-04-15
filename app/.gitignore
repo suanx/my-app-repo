@@ -1,0 +1,14 @@
+# Node.js dependencies
+node_modules/
+
+# Logs
+npm-debug.log*
+
+# Environment variables file (optional)
+.env
+
+# VSCode settings folder
+.vscode/
+
+# Idea settings folder
+.idea/
